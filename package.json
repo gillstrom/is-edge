@@ -1,0 +1,30 @@
+{
+  "name": "is-edge",
+  "version": "1.0.0",
+  "description": "Check if browser is Microsoft Edge",
+  "license": "MIT",
+  "repository": "gillstrom/is-edge",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "browser",
+    "check",
+    "detect",
+    "edge",
+    "microsoft",
+    "version",
+    "windows"
+  ],
+  "dependencies": {
+    "array-contains": "0.0.1"
+  }
+}
