@@ -26,5 +26,16 @@
   ],
   "dependencies": {
     "array-contains": "0.0.1"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ]
   }
 }
