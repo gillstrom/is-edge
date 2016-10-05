@@ -12,26 +12,28 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "scripts": {
+    "test": "xo && ava"
+  },
   "files": [
     "index.js"
   ],
   "keywords": [
+    "agent",
     "browser",
     "check",
     "detect",
     "edge",
     "microsoft",
+    "user",
     "version",
     "windows"
   ],
   "dependencies": {
     "array-contains": "0.0.1"
   },
-  "scripts": {
-    "test": "xo"
-  },
   "devDependencies": {
-    "xo": "^0.12.1"
+    "xo": "*"
   },
   "xo": {
     "envs": [
