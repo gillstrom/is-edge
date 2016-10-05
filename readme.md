@@ -1,4 +1,4 @@
-# is-edge
+# is-edge [![Build Status](https://travis-ci.org/gillstrom/is-edge.svg?branch=master)](https://travis-ci.org/gillstrom/is-edge)
 
 > Check if browser is Microsoft Edge
 
