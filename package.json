@@ -33,6 +33,7 @@
     "array-contains": "0.0.1"
   },
   "devDependencies": {
+    "ava": "*",
     "xo": "*"
   },
   "xo": {
