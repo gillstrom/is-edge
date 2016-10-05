@@ -15,29 +15,35 @@ $ npm install --save is-edge
 ## Usage
 
 ```js
-var isEdge = require('is-edge');
+const isEdge = require('is-edge');
 
 isEdge();
-//=> true
 
-isEdge(12);
-//=> true
+isEdge({version: 38});
 
-isEdge(12.0);
-//=> true
+isEdge({userAgent: 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10136'});
 ```
 
 
-### isEdge(version)
+### isEdge([options])
 
 Returns a `boolean`.
 
-#### version
+#### options
 
-*Optional*  
-Type: `number`
+Type: `object`
 
-Check for specific version
+##### options.userAgent
+
+Type: `string`
+
+User agent to test.
+
+##### options.version
+
+Type: `string` or `number`
+
+Check for specific version.
 
 
 ## License
