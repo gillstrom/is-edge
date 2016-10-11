@@ -8,8 +8,7 @@ module.exports = function (opts) {
 		return false;
 	}
 
-	var reg = new RegExp(/(edge)\/((\d+)?[\w\.]+)/i);
-	var arr = reg.exec(opts.userAgent || navigator.userAgent);
+	var arr = /(edge)\/((\d+)?[\w\.]+)/i.exec(opts.userAgent || navigator.userAgent);
 
 	if (!arr || (opts.version && !arrayContains(arr, opts.version))) {
 		return false;

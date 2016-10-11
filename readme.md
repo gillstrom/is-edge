@@ -31,17 +31,15 @@ Returns a `boolean`.
 
 #### options
 
-Type: `object`
-
-##### options.userAgent
+##### userAgent
 
 Type: `string`
 
 User agent to test.
 
-##### options.version
+##### version
 
-Type: `string` or `number`
+Type: `string`, `number`
 
 Check for specific version.
 
